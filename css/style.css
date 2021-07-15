@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-color: black;
+}
+label {
+    margin-left: auto;
+}
+.content {
+    background-color: rgb(28, 28, 28);
+    padding: 10px;
+}
+.fc-toolbar-chunk div {
+    display: flex;
+}
+.hypoint-btn {
+    background-color: #b8f021;
+    border: 1px solid #b8f021;
+    border-radius: 50%;
+}
+
+.hyp-btn {
+    
+    background-color: rgb(28, 28, 28);
+    border: 2px solid #b8f021;
+    border-radius: 50px;
+    color: #b8f021;
+}
+.hypoint-input {
+    background-color: rgb(28,28,28)!important;
+    border: none;
+    border-bottom: 2px solid grey;
+    color: white;
+}
+
+.hypoint-color {
+    color: #b8f021 !important;
+}
+.hypoint-input-border {
+    background-color: rgb(26,26,26)!important;
+    border: 1px solid #b8f021;
+    color: white;
+}
+.hypoint-input:focus {
+    color: whitesmoke!important;
+    background-color: rgb(28,28,28)!important;
+    border-color: #b8f021!important;
+}
+.hypoint-input-border:focus {
+    color: whitesmoke!important;
+    background-color: rgb(28,28,28)!important;
+    border-color: #b8f021!important;
+}
+.hypoint-header-w {
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    
+}
+.box {
+    display:flex;
+    justify-content: center;
+    
+}
+.block {
+    padding-left:25%;
+    margin: 10px;
+    width: 58px;
+    height: 58px;
+}
